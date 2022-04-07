@@ -1,6 +1,7 @@
 import 'package:carrinho_de_compras/projeto/index.dart';
 import 'package:carrinho_de_compras/widgets/aligment.dart';
 import 'package:carrinho_de_compras/widgets/column.dart';
+import 'package:carrinho_de_compras/widgets/column_row.dart';
 import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:carrinho_de_compras/widgets/row.dart';
 import 'package:flutter/material.dart';
@@ -56,6 +57,14 @@ class ListMenu {
           );
         },
         child: const Text('Column'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const ColumnRowView()),
+          );
+        },
+        child: const Text('Column Row'),
       )
     ];
   }
