@@ -1,6 +1,8 @@
 import 'package:carrinho_de_compras/projeto/index.dart';
 import 'package:carrinho_de_compras/widgets/aligment.dart';
+import 'package:carrinho_de_compras/widgets/column.dart';
 import 'package:carrinho_de_compras/widgets/container.dart';
+import 'package:carrinho_de_compras/widgets/row.dart';
 import 'package:flutter/material.dart';
 
 class ListMenu {
@@ -38,6 +40,22 @@ class ListMenu {
           );
         },
         child: const Text('Aliment'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const RowView()),
+          );
+        },
+        child: const Text('Row'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const ColumnView()),
+          );
+        },
+        child: const Text('Column'),
       )
     ];
   }
