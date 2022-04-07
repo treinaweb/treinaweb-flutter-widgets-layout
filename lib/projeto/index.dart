@@ -1,3 +1,5 @@
+import 'package:carrinho_de_compras/list.dart';
+import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:flutter/material.dart';
 
 class CarrinhoDeCompras extends StatelessWidget {
@@ -13,17 +15,7 @@ class CarrinhoDeCompras extends StatelessWidget {
       ),
       drawer: Drawer(
         child: ListView(
-          children: [
-            UserAccountsDrawerHeader(
-              accountName: const Text('Ariel'),
-              accountEmail: const Text('ariel@treinaweb'),
-              currentAccountPicture: ClipOval(
-                child: Image.network('https://github.com/arielsardinha.png'),
-              ),
-            ),
-            Text('qualqeur coisa '),
-            Text('qualqeur coisa ')
-          ],
+          children: ListMenu.get(context),
         ),
       ),
     );

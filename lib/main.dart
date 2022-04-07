@@ -1,4 +1,6 @@
 import 'package:carrinho_de_compras/projeto/index.dart';
+import 'package:carrinho_de_compras/widgets/aligment.dart';
+import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:flutter/material.dart';
 
 void main() {
