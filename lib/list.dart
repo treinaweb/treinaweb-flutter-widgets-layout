@@ -5,6 +5,7 @@ import 'package:carrinho_de_compras/widgets/column_row.dart';
 import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:carrinho_de_compras/widgets/grid_view.dart';
 import 'package:carrinho_de_compras/widgets/list_view.dart';
+import 'package:carrinho_de_compras/widgets/positined.dart';
 import 'package:carrinho_de_compras/widgets/row.dart';
 import 'package:carrinho_de_compras/widgets/stack.dart';
 import 'package:carrinho_de_compras/widgets/wrap.dart';
@@ -101,6 +102,14 @@ class ListMenu {
           );
         },
         child: const Text('Stack'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const PositinedView()),
+          );
+        },
+        child: const Text('Positined'),
       )
     ];
   }
