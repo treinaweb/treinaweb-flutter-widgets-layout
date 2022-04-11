@@ -6,6 +6,7 @@ import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:carrinho_de_compras/widgets/grid_view.dart';
 import 'package:carrinho_de_compras/widgets/list_view.dart';
 import 'package:carrinho_de_compras/widgets/row.dart';
+import 'package:carrinho_de_compras/widgets/stack.dart';
 import 'package:carrinho_de_compras/widgets/wrap.dart';
 import 'package:flutter/material.dart';
 
@@ -92,6 +93,14 @@ class ListMenu {
           );
         },
         child: const Text('GridView'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const StackView()),
+          );
+        },
+        child: const Text('Stack'),
       )
     ];
   }
