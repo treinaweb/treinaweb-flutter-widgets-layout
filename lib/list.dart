@@ -3,6 +3,7 @@ import 'package:carrinho_de_compras/widgets/aligment.dart';
 import 'package:carrinho_de_compras/widgets/column.dart';
 import 'package:carrinho_de_compras/widgets/column_row.dart';
 import 'package:carrinho_de_compras/widgets/container.dart';
+import 'package:carrinho_de_compras/widgets/grid_view.dart';
 import 'package:carrinho_de_compras/widgets/list_view.dart';
 import 'package:carrinho_de_compras/widgets/row.dart';
 import 'package:carrinho_de_compras/widgets/wrap.dart';
@@ -83,6 +84,14 @@ class ListMenu {
           );
         },
         child: const Text('Wrap'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const GridViewView()),
+          );
+        },
+        child: const Text('GridView'),
       )
     ];
   }
