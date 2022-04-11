@@ -18,6 +18,48 @@ class CarrinhoDeCompras extends StatelessWidget {
           children: ListMenu.get(context),
         ),
       ),
+      body: Container(
+        color: Colors.green[400],
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Column(
+              children: const [
+                Text(
+                  'CARRINHO DA',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25,
+                    color: Colors.white,
+                  ),
+                ),
+                Text(
+                  'TREINAWEB',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 35,
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
+            Container(),
+            SizedBox(
+              width: 250,
+              child: TextButton(
+                onPressed: () {},
+                child: const Text(
+                  'COMPRAR',
+                  style: TextStyle(color: Colors.white),
+                ),
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.blue),
+                ),
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
