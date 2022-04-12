@@ -4,6 +4,7 @@ import 'package:carrinho_de_compras/widgets/column.dart';
 import 'package:carrinho_de_compras/widgets/column_row.dart';
 import 'package:carrinho_de_compras/widgets/container.dart';
 import 'package:carrinho_de_compras/widgets/grid_view.dart';
+import 'package:carrinho_de_compras/widgets/layout_builder.dart';
 import 'package:carrinho_de_compras/widgets/list_view.dart';
 import 'package:carrinho_de_compras/widgets/media_query.dart';
 import 'package:carrinho_de_compras/widgets/orientation_builder.dart';
@@ -128,6 +129,14 @@ class ListMenu {
           );
         },
         child: const Text('media query'),
+      ),
+      TextButton(
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (ctx) => const LayoutBuilderView()),
+          );
+        },
+        child: const Text('layout builder'),
       )
     ];
   }
