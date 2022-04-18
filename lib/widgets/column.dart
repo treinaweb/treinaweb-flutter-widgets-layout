@@ -14,20 +14,23 @@ class ColumnView extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        scrollDirection: Axis.vertical,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: List.generate(
-              50,
+        child: Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.black),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: List.generate(
+              100,
               (index) => Container(
-                    width: 50,
-                    height: 50,
-                    margin: EdgeInsets.all(10),
-                    color: Colors.red,
-                    alignment: Alignment.center,
-                    child: Text('${index + 1}'),
-                  )),
+                margin: EdgeInsets.all(10),
+                padding: EdgeInsets.all(5),
+                color: Colors.grey,
+                child: Text('$index', style: TextStyle(fontSize: 30)),
+              ),
+            ),
+          ),
         ),
       ),
     );
