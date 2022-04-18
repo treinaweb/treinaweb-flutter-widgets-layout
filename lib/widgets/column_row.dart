@@ -16,55 +16,44 @@ class ColumnRowView extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SizedBox(
-            child: Column(
-              children: [
-                Row(
-                  children: const [
-                    SizedBox(
-                      width: 200,
-                      child: Text(
-                          'loren yopon loren yopon loren yopon loren yopon loren yopon loren yoponloren yopon vloren yoponloren yopon'),
-                    ),
-                    SizedBox(
-                      width: 200,
-                      child: Text(
-                          ' loren yopon loren yoponloren yopon vloren yoponloren yopon loren yopon loren yoponloren yopon vloren yoponloren yopon'),
-                    ),
-                  ],
-                ),
-                const SizedBox(
-                  height: 50,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
-                    SizedBox(
-                      width: 300,
-                      child: Text(
-                          'loren yopon loren yopon loren yopon loren yopon loren yopon loren yoponloren yopon vloren yoponloren yopon on loren yopon loren yopon loren yopon loren yoponloren yopon v on loren yopon loren yopon loren yopon loren yoponloren yopon v'),
-                    ),
-                    SizedBox(
-                      width: 100,
-                      child: Text(
-                          ' loren yopon loren yoponloren yopon vloren yoponloren yopon loren yopon loren yoponloren yopon vloren yoponloren yopon'),
-                    ),
-                  ],
-                ),
-              ],
-            ),
+          Column(
+            children: [
+              Row(
+                children: [
+                  Container(
+                    width: 200,
+                    child: Text(
+                        "Aqui na TreinaWeb, nos preocupamos muito com os nossos alunos. Por isso criamos um formulário para que você possa, facilmente, sugerir assuntos para novos cursos."),
+                  ),
+                  Container(
+                    width: 200,
+                    child: Text(
+                        "Aqui na TreinaWeb, nos preocupamos muito com os nossos alunos. Por isso criamos um formulário para que você possa, facilmente, sugerir assuntos para novos cursos."),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    width: 300,
+                    child: Text(
+                        "Aqui na TreinaWeb, nos preocupamos muito com os nossos alunos. Por isso criamos um formulário para que você possa, facilmente, sugerir assuntos para novos cursos."),
+                  ),
+                  Container(
+                    width: 100,
+                    child: Text(
+                        "Aqui na TreinaWeb, nos preocupamos muito com os nossos alunos. Por isso criamos um formulário para que você possa, facilmente, sugerir assuntos para novos cursos."),
+                  ),
+                ],
+              ),
+            ],
           ),
           Container(
-            margin: EdgeInsets.all(10),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Text('Treinawe'),
-                Text('@'),
-              ],
-            ),
-          )
+            width: 200,
+            child: Text('treinaweb@treinaweb'),
+          ),
         ],
       ),
     );
