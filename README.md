@@ -1,17 +1,20 @@
-# carrinho_de_compras
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-widgets-posicionamento
+Aula | Video | Commit | Link
+------ | ------ | ------ | ------
+Aula 02 | 01-06 | criando projeto, usando scaffold, drawer e appBar | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/d584a705b025bee6485a8f578658fefe43f1286a.zip)
+Aula 03 | 07 | align | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/d972143394c7330679741ab4fb86fce572d71a6d.zip)
+Aula 03 | 08 | projeto 1 | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/1e34254ba720a70fb87523b9048929fa04f9b12c.zip)
+Aula 04 | 09/10 | row e column | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/279adc982013bb57d8539e1a9664cf2e6dce5abe.zip)
+Aula 04 | 11 | row e column | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/fb00705a1d72fdb0d37ac6392c012d97ff9a5f59.zip)
+Aula 04 | 12 | list view | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/bd293cea998ca174fc1f1691c7b5324c5f12788b.zip)
+Aula 04 | 13 | projeto parte 2 | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/fbddc626341b142621d5277e4ba249c08ae307fc.zip)
+Aula 05 | 14 | wrap | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/32a838057a203c743bf3e3db7d45bf2e89ad1e79.zip)
+Aula 05 | 15 | grid view | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/ff2908e8d2d5791cd7b78b299e26e42990194986.zip)
+Aula 05 | 16 | projeto parte 3 | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/0ce7849c7dfe71830dc1354e67140fd445ee8954.zip)
+Aula 06 | 17 | stack | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/bcde5f9b55262da4aa793c40519a97cbe1fa0560.zip)
+Aula 06 | 18 | positined | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/77336827161dca85865597457de20357e1ed2efa.zip)
+Aula 06 | 19 | projeto parte 4 | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/f7f9f7e89d9d3a31ff7ba4b37039684cd20aacbd.zip)
+Aula 07 | 20 | orientation builder | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/6471c7ebf5649bfe33d64b9c80b48849705aa737.zip)
+Aula 07 | 21 | media query | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/bf81d268482890e9aad6637ff2631fad554e61fe.zip)
+Aula 07 | 22 | layout builder | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/10095c739034f370e18e3ae4fbb87150f8b4f490.zip)
+Aula 07 | 23 | flexible e expanded | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/e8838e468cbfeb53fb804c50fd5d677d3011611f.zip)
+Aula 07 | 24 | projeto parte 5 | [Download](https://github.com/treinaweb/treinaweb-flutter-widgets-layout/archive/1d7c4c73c04c99ce22b0e8d1382aafb026c7d0bf.zip)
